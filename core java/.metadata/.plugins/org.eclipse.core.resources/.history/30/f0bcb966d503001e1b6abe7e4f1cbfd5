@@ -1,0 +1,8 @@
+package Oop.Practice;
+
+public interface  Neet {
+	public void name();
+	public void address();
+	public void Student();
+
+}

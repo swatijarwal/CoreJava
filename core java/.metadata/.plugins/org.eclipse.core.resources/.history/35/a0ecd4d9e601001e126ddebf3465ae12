@@ -1,0 +1,10 @@
+package cloning;
+
+public class Account implement Cloneable {
+	
+      private int balance=0;
+      
+   public Account   
+}
+  
+   

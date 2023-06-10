@@ -1,0 +1,10 @@
+package Collect;
+
+public class collctn {
+	public static void main(String[] args) {
+		
+		collctn list= new collctn();
+		
+	}
+
+}

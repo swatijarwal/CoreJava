@@ -1,0 +1,13 @@
+package cloning;
+
+public class TestEmployee {
+
+	public static void main(String[] args) {
+		Employee e1=new Employee(1,"abc","indore");
+		Employee e2=e1;
+		
+		System.out.println(e2);
+
+	}
+
+}

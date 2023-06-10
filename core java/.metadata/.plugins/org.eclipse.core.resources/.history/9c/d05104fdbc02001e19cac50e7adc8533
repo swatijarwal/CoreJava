@@ -1,0 +1,23 @@
+package Oop.Practice;
+
+public class Conctructor {
+	private String name;
+	private String address;
+	private float mobNo;
+	
+	Conctructor()
+	{
+		
+	}
+    Conctructor(String name, String address, float mobNo)
+    {
+    	name=name;
+    	address=address;
+    	 mobNo=mobNo;
+    	 System.out.println(name);
+    	 System.out.println(address);
+    	 System.out.println(mobNo);
+    	
+    }
+}
+  

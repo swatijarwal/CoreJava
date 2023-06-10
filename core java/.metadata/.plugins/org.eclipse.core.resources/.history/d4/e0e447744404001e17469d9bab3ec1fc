@@ -1,0 +1,36 @@
+package exception;
+
+public class AccountEx extends Exception {
+	private String name=null;
+	private String accountType=null;
+	private int balance=0;
+	
+	public AccountEx()
+	{
+		
+	}
+	public void setName( String name)
+	{
+		this .name=name;
+	
+	}
+       public String getName()
+       {
+    	   return name;
+       }
+       public void setAccountType(String accountType) {
+		this.accountType = accountType;
+	}
+       public String getAccountType()
+       {
+    	   return accountType;
+    	   
+       }
+        public void setBalance(int balance) {
+			this.balance = balance;
+		}
+        public int getBalance() {
+			return balance;
+		}
+       
+}

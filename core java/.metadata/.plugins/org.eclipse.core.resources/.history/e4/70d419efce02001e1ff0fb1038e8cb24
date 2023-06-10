@@ -1,0 +1,20 @@
+package Oop.Practice;
+
+public class TestRectangle {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Rectangle r= new Rectangle();
+		r.setHeight(20);
+		r.setWidth(30);
+		System.out.println(r.getHeight());
+		System.out.println(r.getWidth());
+		r.getArea();
+		System.out.println(r.getArea());
+		
+		r.getPerimeter();
+		System.out.println(r.getPerimeter());
+
+	}
+
+}

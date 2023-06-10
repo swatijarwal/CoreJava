@@ -1,0 +1,28 @@
+package cloning;
+
+public class Person implements Cloneable {
+	private String name=null;
+	public Account account=null;
+	public Person(String name)
+	{
+	  this.name=name;
+	  this.account= new Account(100);
+	  
+	}
+	public void setName(String name) {
+		this.name = name;
+	}
+	  
+	public String getName() {
+		return name;
+	}
+	@Override
+	protected Object clone() throws CloneNotSupportedException {
+		 Person p1=  (Person) super.clone();
+		 account= (Account) account.clone();
+		 return p1;
+	
+	}
+	
+
+}

@@ -1,0 +1,10 @@
+package Abstract;
+
+public class Pen2 implements Pen { 
+	private String name;
+	private String penType;
+	
+	
+	
+
+}

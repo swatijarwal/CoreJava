@@ -1,0 +1,38 @@
+package Oop.Practice;
+
+public class ThisKeyword {
+	private String color;
+	private int borderwidth;
+
+	ThisKeyword()
+	{
+		System.out.println("1st const");
+		
+	}
+	ThisKeyword(String color)
+	{
+		this();
+		
+		System.out.println("2nd const");
+		
+	}
+	 ThisKeyword(String color,int borderwidth)
+	 {
+		 this(color);
+		 
+		 System.out.println("3rd const");
+		 this.color=color;
+		 this.borderwidth=borderwidth;
+	 }
+	   
+	 // public String getColor()
+	 // {
+		//  return color;
+	//  }
+	 // public void getBorderWidth()
+	 // {
+		//  System.out.print(borderwidth);
+		  
+	 // }
+	  }
+

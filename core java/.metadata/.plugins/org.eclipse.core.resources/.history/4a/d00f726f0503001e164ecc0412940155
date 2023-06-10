@@ -1,0 +1,22 @@
+package Abstract;
+
+public class Pen2 extends Pen {
+
+	@Override
+	public void write() {
+		// TODO Auto-generated method stub
+		System.out.println("w");
+	}
+
+	@Override
+	public void refill() {
+		// TODO Auto-generated method stub
+		System.out.println("r");
+		
+	}
+	
+	
+
+	 
+
+}

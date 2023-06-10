@@ -1,0 +1,15 @@
+package exception;
+
+public class TestAccountEx {
+
+	public static void main(String[] args) {
+		try {
+			   AccountEx a =new AccountEx();
+			  
+		} catch (Exception e) {
+			// TODO: handle exception
+		}
+
+	}
+
+}

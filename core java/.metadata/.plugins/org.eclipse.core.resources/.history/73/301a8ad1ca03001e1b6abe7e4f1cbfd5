@@ -1,0 +1,9 @@
+package Clone;
+
+
+public class Customer  {
+	private String name=null;
+	public Account  acc=null;
+			
+
+}

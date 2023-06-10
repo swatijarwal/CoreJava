@@ -1,0 +1,24 @@
+package basic;
+
+public class ExtractLastName {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String[] s={"vijay","chauhan"};
+		
+		
+		for(int i=0; i<s.length;i++)
+		{
+		 	 for (int j =s.length-1;j>=0; j--)
+		 	 {
+				
+			 
+			System.out.print(s[i] .charAt(j));
+		
+		 	 }
+		 	 System.out.print(" ");
+
+	}
+
+}
+}

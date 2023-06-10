@@ -1,0 +1,22 @@
+package Oop.Practice;
+
+public class TestBook {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Book b1= new Book("JAVA","James","sbin0011");
+		//b1.add_Book();
+		System.out.println(b1.getTitle());
+		System.out.println(b1.getAuthor());
+		System.out.println(b1.getISBN());
+		 b1.add_Book(b1);
+		 b1.getBookCollection();
+		 System.out.println(b1.add_Book(b1));
+		 
+		 
+		 
+		
+
+	}
+
+}

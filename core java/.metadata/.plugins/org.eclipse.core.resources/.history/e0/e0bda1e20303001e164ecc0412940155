@@ -1,0 +1,16 @@
+package Abstract;
+
+public class Pen  extends AbstractPen{
+	
+	
+	public void refil() {
+		System.out.println("refil");
+	}
+
+	@Override
+	public void write() {
+		System.out.println("write");
+		
+	}
+
+}

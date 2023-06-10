@@ -1,0 +1,16 @@
+package cloning;
+
+public class Employee {
+	private Salary salary;
+	private String name ;
+	public Employee(String name)
+	{
+		this.name=name;
+		this.salary=new Salary(1000);
+	}
+	
+	
+	
+	
+
+}

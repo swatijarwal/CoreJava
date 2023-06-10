@@ -1,0 +1,11 @@
+package Oop.Practice;
+
+public class TestConctructor {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Conctructor c=new Conctructor("swati" ,"indore", 930242);
+
+	}
+
+}

@@ -1,0 +1,37 @@
+package exception;
+
+public class TryCatchFinally {
+	 public static void main(String[]args) 
+	
+	 {
+		 try {
+			   String name= "swati";
+			   System.out.println(name.length());
+			
+		 } catch (Exception e)
+		 {
+			
+	 	      System.out.println(e);
+			  
+			 
+			 
+		 
+		
+	 	}	 
+		  
+		 
+		 }	 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+	 }
+
+}

@@ -1,0 +1,13 @@
+package Collect;
+
+import java.util.*;
+
+public class collctn {
+	public static void main(String[] args) {
+		
+		Collection list1 = new ArrayList();
+		list1.add("abc");
+		
+	}
+
+}

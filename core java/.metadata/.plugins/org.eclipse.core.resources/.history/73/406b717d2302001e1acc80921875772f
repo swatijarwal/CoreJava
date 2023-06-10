@@ -1,0 +1,12 @@
+package basic;
+
+public class TextString1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		  String1 s=new String1();
+		  s 
+
+	}
+
+}

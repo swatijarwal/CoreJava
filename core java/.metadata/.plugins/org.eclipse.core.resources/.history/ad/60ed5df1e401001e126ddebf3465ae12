@@ -1,0 +1,15 @@
+package basic;
+
+import java.lang.*;
+
+public class String1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		String s1 = "swati";
+		String s2 = "jarwal";
+
+	}
+
+}

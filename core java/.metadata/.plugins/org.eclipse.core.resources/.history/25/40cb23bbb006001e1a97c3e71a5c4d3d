@@ -1,0 +1,33 @@
+package Collect;
+import java.util.*;
+public class TestFamily {
+
+	public static void main(String[] args) {
+	 Family s1= new Family(1,"Maa","indore");
+	 Family s2= new Family(2,"Bandar","indore");
+	 Family s3= new Family(3,"Chipkali","kantaphod");
+	 
+	
+	
+	
+	 
+	  
+	   List list=new ArrayList();
+	  list.add(s1);
+	   list.add(s2);
+	   list.add(s3);
+	   
+	   //System.out.println(list);
+	  // list.add(s2);
+	  // System.out.println(list);
+	 Iterator it= list.iterator();
+	 while(it.hasNext())
+	 {
+		System.out.println( it.next());
+	 }
+	 
+	 
+
+	}
+
+}

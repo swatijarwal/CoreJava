@@ -1,0 +1,28 @@
+package exception;
+
+public class TestFamillyPropagation {
+
+	public static void main(String[] args) {
+		dad();
+
+
+	}
+
+	private static void dad() {
+		mom();
+		System.out.println("dad");
+		
+	}
+
+	private static void mom() {
+       son();
+       System.out.println("mom");
+		
+	}
+
+	private static void son() {
+		throw new exception();
+		
+	}
+
+}

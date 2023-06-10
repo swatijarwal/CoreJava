@@ -1,0 +1,37 @@
+package exception;
+
+public class TryCatchFinally {
+	 public static void main(String[]args)
+	 {
+		try { 
+			int k=15;
+			int i=0;
+			int div=k/i;
+			System.out.println("Div of div="+div);
+			
+			
+		} catch (ArithmeticException e) {
+			System.out.println("by Zero");
+		} 
+		
+			 
+		 
+		
+	 		 
+		  
+		 
+		  
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+	 }
+
+}

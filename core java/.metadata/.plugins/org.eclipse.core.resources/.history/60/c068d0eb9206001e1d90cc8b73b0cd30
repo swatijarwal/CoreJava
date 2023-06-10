@@ -1,0 +1,13 @@
+package Collect;
+
+public class TestEmployee {
+
+	public static void main(String[] args) {
+		Employee e1=new Employee(1,"swati","indore");
+		Employee e2=new Employee(1,"swati","indore");
+		 
+	    System.out.println(e1.equals(e2));
+
+	}
+
+}

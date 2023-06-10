@@ -1,0 +1,26 @@
+package Collect;
+
+public class FamilyPropagation {
+
+	public static void main(String[] args) {
+		dad();
+
+	}
+
+	private static void dad() {
+		mom();
+		System.out.println("dad");
+	}
+
+	private static void mom() {
+		son();
+		System.out.println("mom");
+		
+	}
+
+	private static void son() {
+		
+		throw
+	}
+
+}

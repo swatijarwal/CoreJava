@@ -1,0 +1,23 @@
+package exception;
+import java.util.*;
+public class TryCatchFinally2 {
+
+	public static void main(String[] args) {
+		try {
+			
+			  String[] s1= {"core"};
+			  String[] s2= {"java"};
+			  System.out.println(s1.equals(s2));
+			  
+			
+			
+			
+			
+			
+		} finally {
+		       System.out.println("not equal");
+		}
+
+	}
+
+}

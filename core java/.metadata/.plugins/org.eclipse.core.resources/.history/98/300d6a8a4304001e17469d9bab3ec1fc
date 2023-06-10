@@ -1,0 +1,20 @@
+package exception;
+
+public class AccountEx {
+	private String name=null;
+	private String accountType=null;
+	private int balance=0;
+	
+	public AccountEx()
+	{
+		
+	}
+	public AccountEx(String name, String accountType,int balance)
+	{
+		this.name=name;
+		this.accountType=accountType;
+		this.balance=balance;
+		System.out.println("Insuffient balance");
+	}
+
+}

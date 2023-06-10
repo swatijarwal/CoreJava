@@ -1,0 +1,17 @@
+package Oop.Practice;
+
+public class TestKhushboo {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Khushboo k= new Khushboo();
+		k.setStudentname("khushi");
+		k.setStudent("1");
+		System.out.println(k.getStudentname());
+		System.out.println(k.getStudent());
+		k.CoachingName();
+		k.address();
+		k.StudentId();
+	}
+
+}

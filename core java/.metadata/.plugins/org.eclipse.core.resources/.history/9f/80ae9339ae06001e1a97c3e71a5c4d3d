@@ -1,0 +1,18 @@
+package Collect;
+import java.util.*;
+public class TestStudent {
+
+	public static void main(String[] args) {
+	 Student s1= new Student(1,"bandar","indore");
+	 Student s2= new Student(2,"chipkali","indore");
+	  
+	   List list=new ArrayList();
+	   list.add(s1);
+	   System.out.println(list);
+	 
+	 
+	 
+
+	}
+
+}

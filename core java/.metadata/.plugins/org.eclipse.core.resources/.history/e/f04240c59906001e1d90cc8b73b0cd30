@@ -1,0 +1,14 @@
+package Collect;
+
+import java.util.*;
+
+public class TestPerson {
+
+	public static void main(String[] args) {
+		Person p1 = new Person(1, "abc");
+		Person p2 = new Person(2, "def");
+
+		List list = new ArrayLis();
+	}
+
+}

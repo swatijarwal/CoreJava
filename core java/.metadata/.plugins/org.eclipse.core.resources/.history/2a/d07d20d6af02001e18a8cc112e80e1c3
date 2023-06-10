@@ -1,0 +1,9 @@
+package Oop.Practice;
+
+public class ThisRectangle extends ThisKeyword {
+	private int length;
+	private int breadth;
+	
+	
+
+}

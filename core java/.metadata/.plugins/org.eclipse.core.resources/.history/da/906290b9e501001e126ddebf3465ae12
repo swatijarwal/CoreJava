@@ -1,0 +1,18 @@
+package basic;
+
+
+
+public class String1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		String s1 = "swati";
+		String s2 = "jarwal";
+        String s3= s1 .concat(s2);
+        System.out.println(s3);
+	}
+      
+    	   
+       }
+

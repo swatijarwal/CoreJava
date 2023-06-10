@@ -1,0 +1,13 @@
+package exception;
+
+public class LoginException extends Exception {
+
+ 
+	 public   LoginException()
+	   {
+		   System.out.println("invalid user,,!!!");
+	   }
+		
+	}
+
+}

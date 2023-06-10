@@ -1,0 +1,49 @@
+package Collect;
+import java.util.*;
+public class TestFamily {
+
+	public static void main(String[] args) {
+	 Family s1= new Family(1,"Maa","god");
+	 Family s2= new Family(2,"Bandar","Mr.bohra ji");
+	 Family s3= new Family(3,"Chipkali"," Mrs.bohra ji ");
+	 
+	
+	
+	
+	 
+	  
+	   List list=new ArrayList();
+	  list.add(s1);
+	   list.add(s2);
+	   list.add(s3);
+	   System.out.println(list);
+	   
+	   //System.out.println(list);
+	  // list.add(s2);
+	  // System.out.println(list);
+	// Iterator it= list.iterator();
+	// while(it.hasNext())
+	// {
+	//	System.out.println( it.next());
+	// }
+	   // list.addAll(s1,s2,s3);
+	    
+	    
+	 list.isEmpty();
+	 System.out.println(list.isEmpty());
+	 list.remove(s1);
+	 System.out.println(list);
+	 list.retainAll(list);
+	 System.out.println(list);
+	 list.add(s1);
+	 System.out.println(list);
+	 list.size();
+	 System.out.println("size of="+list.size());
+	 list.contains(s1);
+	 System.out.println(list);
+	 
+	 
+
+	}
+
+}

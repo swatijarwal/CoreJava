@@ -1,0 +1,7 @@
+package ArrayList;
+
+import Collection_Freamework.Collection;
+
+public class ArrayList extends Collection {
+
+}

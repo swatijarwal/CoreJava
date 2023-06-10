@@ -1,0 +1,18 @@
+package exception;
+
+public class TestAccountEx extends AccountEx {
+
+	public static void main(String[] args) {
+		try {
+			   AccountEx a =new AccountEx("swati","Sbi123",100);
+			   
+			   
+			   
+			  
+		} catch (Exception e) {
+			// TODO: handle exception
+		}
+
+	}
+
+}

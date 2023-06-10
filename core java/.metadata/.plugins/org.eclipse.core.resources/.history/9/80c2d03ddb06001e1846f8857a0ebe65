@@ -1,0 +1,37 @@
+package cloning;
+
+public class Employee implements Cloneable {
+ private int id;
+ private String name;
+ private String add;
+ public Employee(String name)
+ {
+	this.id=id;
+	this.name=name;
+	this.add=add;
+ }
+ public void setId(int id)
+ {
+	 this.id=id;
+ }
+ public int getId() {
+	return id;
+}
+ public void setName(String name) {
+	this.name = name;
+}
+ public String getName() {
+	return name;
+}
+ public void setAdd(String add) {
+	this.add = add;
+}
+ public String getAdd() {
+	return add;
+}
+@Override
+protected Object clone() throws CloneNotSupportedException {
+	// TODO Auto-generated method stub
+	return super.clone();
+}
+}

@@ -1,0 +1,14 @@
+package cloning;
+
+public class TestCustomer {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		 Customer c1= new Customer("abc");
+		 Customer c2=c1;
+		 
+		 System.out.println(c1.getName());
+
+	}
+
+}

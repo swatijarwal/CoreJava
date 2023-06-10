@@ -1,0 +1,24 @@
+package exception;
+
+public class TestAccountEx  {
+
+	public static void main(String[] args) throws AccountEx {
+		AccountEx ax=new AccountEx();
+		ax.setName("swati");
+		ax.setAccountType("sbi2243");
+		ax.setBalance(100);
+		System.out.println(ax.getName());
+		System.out.println(ax.getAccountType());
+		System.out.println(ax.getBalance());
+		ax.getDeposit(200);
+	
+			   
+			   
+			   
+			   
+			  
+		
+
+	}
+
+}
