@@ -1,0 +1,25 @@
+package Exercise;
+
+public class Table {
+	public static void main(String[] args) {
+	int [][] table= new int[10][10];	
+	
+	int i,j=0;
+	for(i=0;i<table.length;i++)
+	{
+		for(j=0; j<table.length;j++)
+		{
+			table[i][j]=(i+1)*(j+1);
+		
+	
+	    
+		
+			System.out.println(table[i][j]+"\t");
+		}
+		
+		System.out.println( );
+	}
+	
+	}
+      
+}
