@@ -1,0 +1,16 @@
+package rays.oop.Constructor;
+
+public class TestPerson {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+        Person p=new Person(10,"swati","indore");
+        // System.out.println(p.getId());
+       //  System.out.println(p.getName());
+        // System.out.println(p.setAddress());
+        p.getId();
+        p.getName();
+        p.getAddress();
+	}
+
+}

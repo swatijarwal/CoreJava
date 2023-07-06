@@ -1,0 +1,15 @@
+package rays.exception;
+
+public class TestPerson {
+
+	public static void main(String[] args) {
+	  Person p1=new Person( 1,"abc","indore");
+	  Person p2=new Person (2,"abc","indore");
+	  System.out.println(p1);
+	 
+	 
+	  
+
+	}
+
+}
